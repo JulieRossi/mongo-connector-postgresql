@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
         name='doc-manager-postgresql',
-        version='1.1.0',
+        version='1.1.0-1',
         description='Copy of Hopworks Doc Manager debugged when using several doc manager',
         platforms=["any"],
         author=u'Julie Rossi',
