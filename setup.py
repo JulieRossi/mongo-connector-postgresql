@@ -4,13 +4,12 @@
 from setuptools import setup
 
 setup(
-        name='mongo-connector-postgresql',
+        name='doc-manager-postgresql',
         version='1.1.0',
-        description='Doc Manager Postgresl for Mongo connector Distribution Utilities',
-        keywords=['mongo-connector', 'mongo', 'mongodb', 'postgresql'],
+        description='Copy of Hopworks Doc Manager debugged when using several doc manager',
         platforms=["any"],
-        author=u'Hugo Lassiège, Maxime Gaudin',
-        author_email='hugo@hopwork.com, maxime@hopwork.com',
+        author=u'Julie Rossi',
+        author_email='julierossi06@gmail.com',
         install_requires=[
             'mongo_connector >= 2.5.1',
             'psycopg2 >= 2.6.1',
@@ -24,7 +23,7 @@ setup(
             'mongo-orchestration>=0.6.9'
         ],
         license="http://www.apache.org/licenses/LICENSE-2.0.html",
-        url='https://github.com/Hopwork/mongo-connector-postgresql',
+        url='https://github.com/JulieRossi/mongo-connector-postgresql/tree/pypi',
         packages=["mongo_connector", "mongo_connector.doc_managers"],
         test_suite='tests'
 )
